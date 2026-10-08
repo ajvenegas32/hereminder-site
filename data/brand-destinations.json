@@ -1,0 +1,316 @@
+{
+ "_about": "Frozen from the Swift source on 2026-09-26 (AP-13 Part BI) before BL deleted it; the pipeline reads this file, not the Swift. Swift name: brandDestinationOverrides (Reminder.swift). An empty list = carrier-only (warehouse clubs).",
+ "table": {
+  "walmart": [
+   "grocery",
+   "hardware",
+   "pharmacy",
+   "electronics",
+   "general",
+   "garden"
+  ],
+  "target": [
+   "grocery",
+   "hardware",
+   "pharmacy",
+   "electronics",
+   "general",
+   "garden"
+  ],
+  "costco": [],
+  "sam's club": [],
+  "sams club": [],
+  "bj's": [],
+  "meijer": [
+   "grocery",
+   "hardware",
+   "pharmacy",
+   "electronics",
+   "general",
+   "garden"
+  ],
+  "fred meyer": [
+   "grocery",
+   "hardware",
+   "pharmacy",
+   "electronics",
+   "general",
+   "garden"
+  ],
+  "kmart": [
+   "grocery",
+   "hardware",
+   "electronics",
+   "general",
+   "garden"
+  ],
+  "dollar general": [
+   "grocery",
+   "general",
+   "pharmacy"
+  ],
+  "family dollar": [
+   "grocery",
+   "general"
+  ],
+  "dollar tree": [
+   "grocery",
+   "general"
+  ],
+  "home depot": [
+   "hardware",
+   "garden"
+  ],
+  "lowe's": [
+   "hardware",
+   "garden"
+  ],
+  "lowes": [
+   "hardware",
+   "garden"
+  ],
+  "menards": [
+   "hardware",
+   "garden"
+  ],
+  "ace hardware": [
+   "hardware"
+  ],
+  "harbor freight": [
+   "hardware"
+  ],
+  "tractor supply": [
+   "hardware",
+   "garden"
+  ],
+  "best buy": [
+   "electronics"
+  ],
+  "micro center": [
+   "electronics"
+  ],
+  "cvs": [
+   "pharmacy"
+  ],
+  "walgreens": [
+   "pharmacy"
+  ],
+  "rite aid": [
+   "pharmacy"
+  ],
+  "duane reade": [
+   "pharmacy"
+  ],
+  "whole foods": [
+   "grocery"
+  ],
+  "trader joe": [
+   "grocery"
+  ],
+  "kroger": [
+   "grocery"
+  ],
+  "safeway": [
+   "grocery"
+  ],
+  "albertsons": [
+   "grocery"
+  ],
+  "publix": [
+   "grocery"
+  ],
+  "wegmans": [
+   "grocery"
+  ],
+  "aldi": [
+   "grocery"
+  ],
+  "food lion": [
+   "grocery"
+  ],
+  "harris teeter": [
+   "grocery"
+  ],
+  "lidl": [
+   "grocery"
+  ],
+  "ingles": [
+   "grocery"
+  ],
+  "piggly wiggly": [
+   "grocery"
+  ],
+  "weis": [
+   "grocery"
+  ],
+  "giant": [
+   "grocery"
+  ],
+  "stop & shop": [
+   "grocery"
+  ],
+  "sprouts": [
+   "grocery"
+  ],
+  "save a lot": [
+   "grocery"
+  ],
+  "h-e-b": [
+   "grocery"
+  ],
+  "heb": [
+   "grocery"
+  ],
+  "winn-dixie": [
+   "grocery"
+  ],
+  "winn dixie": [
+   "grocery"
+  ],
+  "food city": [
+   "grocery"
+  ],
+  "shoprite": [
+   "grocery"
+  ],
+  "acme": [
+   "grocery"
+  ],
+  "lowes foods": [
+   "grocery"
+  ],
+  "lowe's foods": [
+   "grocery"
+  ],
+  "key food": [
+   "grocery"
+  ],
+  "gristedes": [
+   "grocery"
+  ],
+  "d'agostino": [
+   "grocery"
+  ],
+  "morton williams": [
+   "grocery"
+  ],
+  "foodtown": [
+   "grocery"
+  ],
+  "c-town": [
+   "grocery"
+  ],
+  "fairway": [
+   "grocery"
+  ],
+  "food bazaar": [
+   "grocery"
+  ],
+  "sobeys": [
+   "grocery"
+  ],
+  "foodland": [
+   "grocery"
+  ],
+  "no frills": [
+   "grocery"
+  ],
+  "atlantic superstore": [
+   "grocery"
+  ],
+  "co-op food": [
+   "grocery"
+  ],
+  "lawtons": [
+   "pharmacy"
+  ],
+  "shoppers drug mart": [
+   "pharmacy"
+  ],
+  "guardian pharmacy": [
+   "pharmacy"
+  ],
+  "i.d.a.": [
+   "pharmacy"
+  ],
+  "medicine shoppe": [
+   "pharmacy"
+  ],
+  "kent building": [
+   "hardware"
+  ],
+  "home hardware": [
+   "hardware"
+  ],
+  "rona": [
+   "hardware"
+  ],
+  "princess auto": [
+   "hardware"
+  ],
+  "canadian tire": [
+   "hardware",
+   "general"
+  ],
+  "dollarama": [
+   "general"
+  ],
+  "giant tiger": [
+   "general"
+  ],
+  "winners": [
+   "general"
+  ],
+  "the source": [
+   "electronics"
+  ],
+  "marshalls": [
+   "general"
+  ],
+  "tj maxx": [
+   "general"
+  ],
+  "ross dress": [
+   "general"
+  ],
+  "burlington": [
+   "general"
+  ],
+  "big lots": [
+   "general"
+  ],
+  "five below": [
+   "general"
+  ],
+  "value village": [
+   "general"
+  ],
+  "kohl": [
+   "general"
+  ],
+  "reitmans": [
+   "general"
+  ],
+  "sherwin": [
+   "hardware"
+  ],
+  "benjamin moore": [
+   "hardware"
+  ],
+  "dulux": [
+   "hardware"
+  ],
+  "staples": [
+   "general",
+   "electronics"
+  ],
+  "staples business depot": [
+   "general",
+   "electronics"
+  ],
+  "easyhome": [
+   "electronics",
+   "general"
+  ]
+ }
+}

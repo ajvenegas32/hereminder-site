@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HereMinder store data (ODbL)</title>
+<style>body{font-family:-apple-system,system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 20px;line-height:1.5;color:#222}code{background:#f3f3f3;padding:1px 4px;border-radius:3px}</style></head>
+<body>
+<h1>HereMinder store data</h1>
+<p>HereMinder ships with a table of stores built from OpenStreetMap. This page offers that table and the program that builds it, as the Open Database License requires.</p>
+<h2>Notice</h2>
+<p>This database is derived from OpenStreetMap data (Geofabrik extract of 2026-09-24) and is made available under the <a href="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License 1.0</a>. Any rights in individual contents of the database are licensed under the <a href="https://opendatacommons.org/licenses/dbcl/1-0/">Database Contents License</a>. © OpenStreetMap contributors — <a href="https://www.openstreetmap.org/copyright">openstreetmap.org/copyright</a>. It includes HereMinder's category, convenience, big-format and parking-lot columns, which are offered under the same license. Built by HereMinder's <code>build.py</code> (published below, with <code>StoreTable-format.md</code>, the byte layout).</p>
+<h2>Download</h2>
+<ul>
+<li><a href="StoreTable.bin">StoreTable.bin</a> — the table as shipped in the current HereMinder build (OSM data of 2026-09-24; the date is in the file header, bytes 8–15).</li>
+<li><a href="StoreTable-format.md">StoreTable-format.md</a> — the byte layout.</li>
+<li><a href="LICENSE-ODbL.md">LICENSE-ODbL.md</a> — the license text and what is offered.</li>
+</ul>
+<h2>How it is built</h2>
+<ul>
+<li><a href="build.py">build.py</a>, <a href="storetable.py">storetable.py</a></li>
+<li><a href="category-map.json">category-map.json</a>, <a href="chain-carries.json">chain-carries.json</a></li>
+<li><a href="big-format-brands.json">big-format-brands.json</a>, <a href="brand-categories.json">brand-categories.json</a>, <a href="brand-destinations.json">brand-destinations.json</a>, <a href="convenience-fragments.json">convenience-fragments.json</a></li>
+</ul>
+<p><a href="../support.html">Back to support</a></p>
+</body></html>

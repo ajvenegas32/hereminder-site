@@ -1,0 +1,29 @@
+{
+ "_about": "Frozen from the Swift source on 2026-09-26 (AP-13 Part BI) before BL deleted it; the pipeline reads this file, not the Swift. Swift name: convenienceNameFragments (StoreFinder.swift).",
+ "table": [
+  "gas station",
+  "gas mart",
+  "fuel station",
+  "7-eleven",
+  "7 eleven",
+  "wawa",
+  "sheetz",
+  "circle k",
+  "circle-k",
+  "speedway",
+  "quiktrip",
+  "quik trip",
+  "casey's",
+  "royal farms",
+  "cumberland farms",
+  "exxon",
+  "chevron",
+  "sunoco",
+  "marathon",
+  "valero",
+  "citgo",
+  "conoco",
+  "murphy usa",
+  "ampm"
+ ]
+}

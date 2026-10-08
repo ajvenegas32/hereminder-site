@@ -1,0 +1,29 @@
+{
+ "_about": "AP-13 BI/BK (2026-09-26): the chain carries table — brandCategoryOverrides (Reminder.swift) trimmed to chains whose carries exceed what their OSM kind maps to (sized on the 2026-09-24 table: the modal kind of each chain's brand rows, BI Status). A table row whose `brand` matches a key (ItemClassifier.storeNameContainsFragment(brand, key), longest matching key wins) carries its kind's categories UNION these. `convenienceRowOK` = a row OSM tags shop=convenience still ships when its brand matches this key (OSM tags some drugstores and dollar stores as convenience); chains whose convenience-tagged rows are their gas-station stores (Meijer) are false. The two Lowes Foods keys are present only so the longer key wins over lowe's (a Lowes Foods row is a grocer, not a Lowe's). The Swift copy is `StoreTable.chainCarries` (StoreTable.swift): change one, change both.",
+ "table": {
+  "walmart":        {"carries": ["grocery", "hardware", "pharmacy", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "target":         {"carries": ["grocery", "hardware", "pharmacy", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "costco":         {"carries": ["grocery", "hardware", "pharmacy", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "sam's club":     {"carries": ["grocery", "hardware", "pharmacy", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "sams club":      {"carries": ["grocery", "hardware", "pharmacy", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "bj's":           {"carries": ["grocery", "hardware", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "meijer":         {"carries": ["grocery", "hardware", "pharmacy", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "fred meyer":     {"carries": ["grocery", "hardware", "pharmacy", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "kmart":          {"carries": ["grocery", "hardware", "electronics", "general", "garden"], "convenienceRowOK": false},
+  "dollar general": {"carries": ["grocery", "general", "pharmacy"], "convenienceRowOK": true},
+  "family dollar":  {"carries": ["grocery", "general"], "convenienceRowOK": true},
+  "dollar tree":    {"carries": ["grocery", "general"], "convenienceRowOK": true},
+  "home depot":     {"carries": ["hardware", "garden"], "convenienceRowOK": false},
+  "lowe's":         {"carries": ["hardware", "garden"], "convenienceRowOK": false},
+  "lowes":          {"carries": ["hardware", "garden"], "convenienceRowOK": false},
+  "lowes foods":    {"carries": ["grocery"], "convenienceRowOK": false},
+  "lowe's foods":   {"carries": ["grocery"], "convenienceRowOK": false},
+  "menards":        {"carries": ["hardware", "garden"], "convenienceRowOK": false},
+  "canadian tire":  {"carries": ["hardware", "general"], "convenienceRowOK": false},
+  "staples":        {"carries": ["general", "electronics"], "convenienceRowOK": false},
+  "cvs":            {"carries": ["pharmacy"], "convenienceRowOK": true},
+  "walgreens":      {"carries": ["pharmacy"], "convenienceRowOK": true},
+  "duane reade":    {"carries": ["pharmacy"], "convenienceRowOK": true},
+  "rite aid":       {"carries": ["pharmacy"], "convenienceRowOK": true}
+ }
+}
